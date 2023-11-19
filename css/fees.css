@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Serif+Old+Uyghur&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(174 206 228);
+    font-family: 'Kanit', sans-serif;
+}
+.navbar {
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    background-color: bisque;
+    border-bottom: 2px solid;
+    height: 140px;
+}
+
+.navbar .img{
+    overflow: hidden;
+    height: auto;
+}
+
+.navbar .img img {
+    margin-left: 80px;
+    width: 9rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .text {
+    margin-top: 25px;
+}
+
+.navbar h1 {
+    font-size: 40px;
+    margin-left: 15rem;
+    padding-bottom: 5px;
+    border-bottom: 2px solid;
+    width: 430px;
+    margin-top: -8rem;
+}
+
+.navbar p {
+    font-family: 'Noto Serif Old Uyghur', serif;
+    font-size: 30px;
+    margin-left: 14rem;
+}
+
+.navbar .nav {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.navbar .nav p {
+    margin-left: 80px;
+}
+
+.navbar .nav p a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navbar .nav p a:hover {
+    color: rgb(255, 0, 0);
+    border-bottom: 2px solid;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+table ,th, td{
+    background-color: rgb(69 178 255);
+    height: 2.4rem;
+    width: 30rem;
+}
+td{
+    padding-left: 20%;
+    font-size: 1.2rem;
+}
+
+th{
+    border-bottom: 2px solid;
+    height: 9vh;
+    border-collapse: collapse;
+    font-size: 1.3rem;
+}
+table{
+    background: linear-gradient(to right ,rgb(69 178 255),#7878ff);
+    border: 2px solid;
+}
