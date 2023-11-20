@@ -83,6 +83,7 @@ table ,th, td{
     background-color: rgb(69 178 255);
     height: 2.4rem;
     width: 30rem;
+    margin: 1.3rem 0px;
 }
 td{
     padding-left: 20%;
