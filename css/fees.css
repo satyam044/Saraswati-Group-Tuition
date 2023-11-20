@@ -88,12 +88,20 @@ td{
     padding-left: 20%;
     font-size: 1.2rem;
 }
-
+td:hover{
+    background-color:rgb(51, 157, 233);
+    cursor: pointer;
+    border: 1px solid rgb(0, 86, 148);
+}
 th{
     border-bottom: 2px solid;
     height: 9vh;
     border-collapse: collapse;
     font-size: 1.3rem;
+}
+th:hover{
+        background-color:rgb(39, 147, 224);
+        cursor: pointer;
 }
 table{
     background: linear-gradient(to right ,rgb(69 178 255),#7878ff);
