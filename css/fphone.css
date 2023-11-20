@@ -3,9 +3,6 @@
         margin: 0%;
         padding: 0%;
     }
-    .contact{
-        padding: 0px;
-    }
     .navbar {
         font-size: 2vw;
     }
@@ -30,36 +27,6 @@
         position: relative;
         flex-wrap: wrap;
         display: flex;
-    }
-    .home .image {
-        margin-top: -9vh;
-    }
-
-    .home img {
-        margin: 0px;
-        height: 100vh;
-    }
-
-    .home .image h1 {
-        font-size: 2rem;
-    }
-    .home .image p{
-        display: none;
-    } 
-    .home .image button {
-        margin-top: 26rem;
-    }
-    .home .image h3{
-        top:-85vh;
-    }
-    #Rankers .rankh img {
-        height: 2.3rem;
-        margin-top: 5px;
-        margin-left: 5px;
-    }
-
-    #Rankers .rankh h3 {
-        height: 48px;
     }
 }
 
@@ -86,30 +53,6 @@
         font-size: 1.6rem;
         margin-left: 9rem;
     }
-
-    .home .image {
-        font-size: 3.4vh;
-    }
-
-    .home .image p {
-        font-size: 4vh;
-    }
-
-    .home .image span {
-        margin-top: 17rem;
-        font-size: 5vh;
-    }
-
-    .home .image button {
-        width: 250px;
-    }
-
-    #Rankers .ranknamebtn {
-        width: 85vw;
-    }
-    #Rankers .ranknamebtn button{
-        width:60vw;
-    }
 }
 
 
@@ -124,12 +67,6 @@
     body {
         box-sizing: border-box;
     }
-
-    .contact {
-        justify-content: center;
-        width: 100vw;
-    }
-
     .navbar {
         height: auto;
         width: 100vw;
@@ -175,61 +112,5 @@
 
     .navbar .nav p {
         margin-left: 9vw;
-    }
-
-    .home img {
-        max-width: none;
-        margin: 3rem 0rem;
-    }
-
-    .home .text {
-        margin: 0px 0px;
-    }
-
-    #Rankers .rankh h3 {
-        font-size: 2rem;
-    }
-
-    #Rankers .rankimg {
-        margin-top: -6vw;
-        margin-left: 4vw;
-    }
-
-    #Rankers .std {
-        justify-content: space-evenly;
-        height: auto;
-    }
-
-    #Rankers .std p {
-        margin: 0%;
-    }
-
-    #Rankers .std span {
-        margin: 0%;
-    }
-
-    #Rankers .ranknamebtn button {
-        font-size: 1.4rem;
-    }
-}
-@media (width > 1300px) {
-    .home .image{
-        margin-left: -7vw;
-    }
-    .home .image h3{
-        top: -10vh;
-        margin-left: 5vw;
-    }
-    .home .image h1{
-        margin-left: 5vw;
-    }
-    .home .image p{
-        margin-left: 5vw;
-    }
-    .home .image span{
-        margin-left: 5vw;
-    }
-    .home .image button{
-        margin-left: 5vw;
     }
 }
